@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Node_t	total.h	/^}Node_t;$/;"	t	typeref:struct:list
+create	create.c	/^Node_t *create()$/;"	f
+data	total.h	/^    int data;$/;"	m	struct:list
+list	total.h	/^typedef struct list{$/;"	s
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+myfree	create.c	/^void myfree(Node_t *start, Node_t *end)$/;"	f
+next	total.h	/^    struct list *next;$/;"	m	struct:list	typeref:struct:list::list
+obj	Makefile	/^obj = $(patsubst %.c, obj\/%.o, $(src))$/;"	m
+print_ll	create.c	/^void print_ll(Node_t *head)$/;"	f
+reverse	flip.c	/^Node_t *reverse(Node_t *head)$/;"	f
+src	Makefile	/^src = $(wildcard *.c)$/;"	m

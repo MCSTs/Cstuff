@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAXCLT	./epoll_run.c	3;"	d	file:
+__TOTAL_H__	./total.h	2;"	d
+del_connect	./do_read.c	/^void del_connect(int cfd, int efd)$/;"	f
+do_accept	./do_accept.c	/^int do_accept(int sfd, int efd)$/;"	f
+do_read	./do_read.c	/^void do_read(int cfd, int efd)$/;"	f
+epoll_run	./epoll_run.c	/^void epoll_run(int port)$/;"	f
+f_type	./f_type.c	/^const char *f_type(char *name)$/;"	f
+get_line	./do_read.c	/^int get_line(int cfd, char *buf, int size)$/;"	f
+init_listen_fd	./init_listen_fd.c	/^int init_listen_fd(int port, int efd)$/;"	f
+main	./main.c	/^int main(int argc, char **argv)$/;"	f
+obj	./Makefile	/^obj = $(patsubst %.c, .\/Object\/%.o, $(src))$/;"	m
+send_404err	./send2client.c	/^void send_404err(int cfd)$/;"	f
+send_content	./send2client.c	/^void send_content(int cfd, char *filename)$/;"	f
+send_respond	./send2client.c	/^void send_respond(int cfd, int st_num, char *st_ms, char *filety)$/;"	f
+src	./Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+sys_error	./main.c	/^void sys_error(int num, char *ms)$/;"	f

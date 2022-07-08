@@ -1,0 +1,10 @@
+= Start
+@ /lib/x86_64-linux-gnu/libc.so.6:(_IO_file_doallocate+0x94)[0x7fbbe62c7d04] + 0x55f0f65d8690 0x400
+@ /lib/x86_64-linux-gnu/libc.so.6:(_IO_file_doallocate+0x94)[0x7fbbe62c7d04] + 0x55f0f65d8aa0 0x400
+@ ./main:[0x55f0f5ad42f2] + 0x55f0f65d8eb0 0x10
+@ ./main:[0x55f0f5ad42f2] + 0x55f0f65d8ed0 0x10
+@ ./main:[0x55f0f5ad42f2] + 0x55f0f65d8ef0 0x10
+@ ./main:[0x55f0f5ad42f2] + 0x55f0f65d8f10 0x10
+@ ./main:[0x55f0f5ad42f2] + 0x55f0f65d8f30 0x10
+@ /lib/x86_64-linux-gnu/libc.so.6:[0x7fbbe63de9dc] - 0x55f0f65d8aa0
+@ /lib/x86_64-linux-gnu/libc.so.6:[0x7fbbe63de9dc] - 0x55f0f65d8690

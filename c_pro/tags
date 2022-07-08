@@ -1,0 +1,593 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARRSIZE	stuff/gittest/sort_search.c	5;"	d	file:
+ARRSIZE	stuff/sort_search.c	5;"	d	file:
+ARR_BIGEST	stuff/gittest/sort_search.c	6;"	d	file:
+ARR_BIGEST	stuff/sort_search.c	6;"	d	file:
+Accept	Web_program/Package_TCP/pack.c	/^int Accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen)$/;"	f
+Accept	Web_program/TCP/pack.c	/^int Accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen)$/;"	f
+BUF	Web_program/TCP/epoll_ET_LT.c	8;"	d	file:
+BUFSIZE	Web_program/TCP/server.c	11;"	d	file:
+BUF_SIZE	Sys_program/IPC/pipe/mulwr_sigrd.c	7;"	d	file:
+Bind	Web_program/Package_TCP/pack.c	/^int Bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen)$/;"	f
+Bind	Web_program/TCP/pack.c	/^int Bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen)$/;"	f
+Boolean	Web_program/test.c	/^typedef enum {FALSE, TRUE} Boolean;$/;"	t	typeref:enum:__anon4	file:
+Boolean	stuff/LinkedList/LinkedList_3.0/total.h	/^typedef enum{FALSE, TRUE} Boolean;$/;"	t	typeref:enum:__anon2
+CHLD_PROC	Sys_program/IPC/signal/demo.c	8;"	d	file:
+CreateLoop	Windowns/LinkedList/LinkedList_1.0/create.c	/^struct node* CreateLoop(struct node* head, int LoopNode)$/;"	f
+CreateLoop	stuff/LinkedList/LinkedList_1.0/create.c	/^struct node* CreateLoop(struct node* head, int LoopNode)$/;"	f
+D_PORT	Web_program/TCP/client.c	8;"	d	file:
+D_PORT	Web_program/TCP/epoll_server.c	11;"	d	file:
+D_PORT	Web_program/TCP/mul_proc_server.c	12;"	d	file:
+D_PORT	Web_program/TCP/select_server.c	10;"	d	file:
+D_PORT	Web_program/TCP/server.c	8;"	d	file:
+D_PORT	Web_program/UDP/client.c	9;"	d	file:
+D_PORT	Web_program/UDP/server.c	9;"	d	file:
+DeleteNode	Windowns/TreeStructure/deleteNode.c	/^struct node* DeleteNode(struct node* root, int val)$/;"	f
+Dequeue	Windowns/Queue/arrayImplementation/ArrayQueue.c	/^void Dequeue(int *arr, int *f, int *r)$/;"	f
+DetectOperator	Windowns/OTHER/DetectOperator.c	/^int DetectOperator(char *exp)$/;"	f
+DownPortion	Windowns/LinkedList/LinkedList_1.0/reverse.c	/^struct node* DownPortion(struct node* pHead, int n, int m)$/;"	f
+DownPortion	stuff/LinkedList/LinkedList_1.0/reverse.c	/^struct node* DownPortion(struct node* pHead, int n, int m)$/;"	f
+Empty	Windowns/Queue/arrayImplementation/ArrayQueue.c	/^int Empty(int f, int r)$/;"	f
+Enqueue	Windowns/Queue/arrayImplementation/ArrayQueue.c	/^void Enqueue(int *arr, int *f, int *r, int val)$/;"	f
+Error	CPP_pro/Log.cpp	/^    void Error(const char *message) {$/;"	f	class:Log
+FALSE	Web_program/test.c	/^typedef enum {FALSE, TRUE} Boolean;$/;"	e	enum:__anon4	file:
+FALSE	stuff/LinkedList/LinkedList_3.0/total.h	/^typedef enum{FALSE, TRUE} Boolean;$/;"	e	enum:__anon2
+FIFO_MODE	Web_program/Libevent/Reg_event/read_side.c	9;"	d	file:
+FIFO_NAME	Web_program/Libevent/Reg_event/read_side.c	8;"	d	file:
+FIFO_NAME	Web_program/Libevent/Reg_event/write_side.c	9;"	d	file:
+F_MAX	Web_program/TCP/epoll_server.c	12;"	d	file:
+F_NAME	Sys_program/IPC/mmap/par_chil_ipc.c	10;"	d	file:
+F_SIZE	Sys_program/IPC/mmap/par_chil_ipc.c	11;"	d	file:
+GLOBAL_P	stuff/LinkedList/LinkedList_3.0/main.c	/^ListNode *GLOBAL_P;$/;"	v
+GLOBAL_TAIL	stuff/LinkedList/LinkedList_3.0/main.c	/^ListNode *GLOBAL_TAIL;$/;"	v
+Inc_Path	MIX/loginsys/Makefile	/^Inc_Path=.\/inc$/;"	m
+InfixToPostfix	Windowns/operation/exp.c	/^char *InfixToPostfix(char *sour)$/;"	f
+InfixToPostfix	Windowns/operation/operation.c	/^char *InfixToPostfix(char *sour)$/;"	f
+Info	CPP_pro/Log.cpp	/^    void Info(const char *message) {$/;"	f	class:Log
+Kto2	Windowns/LinkedList/LinkedList_2.0/joint_orderd.c	/^static struct node *Kto2(struct node **lists, int left, int right)$/;"	f	file:
+Kto2	stuff/LinkedList/LinkedList_2.0/joint_orderd.c	/^static struct node *Kto2(struct node **lists, int left, int right)$/;"	f	file:
+LOG	CPP_pro/playerMove.cpp	7;"	d	file:
+ListNode	Windowns/LinkedList/LinkedList_3.0/total.h	/^}ListNode;$/;"	t	typeref:struct:node
+ListNode	stuff/LinkedList/LinkedList_3.0/total.h	/^}ListNode;$/;"	t	typeref:struct:node
+Listen	Web_program/Package_TCP/pack.c	/^int Listen(int sockfd, int backlog)$/;"	f
+Listen	Web_program/TCP/pack.c	/^int Listen(int sockfd, int backlog)$/;"	f
+Log	CPP_pro/Log.cpp	/^class Log {$/;"	c	file:
+LogLevelError	CPP_pro/Log.cpp	/^    const int LogLevelError   = 0;$/;"	m	class:Log	file:
+LogLevelInfo	CPP_pro/Log.cpp	/^    const int LogLevelInfo    = 2;$/;"	m	class:Log	file:
+LogLevelWarning	CPP_pro/Log.cpp	/^    const int LogLevelWarning = 1;$/;"	m	class:Log	file:
+MAXCLT	Web_program/Web_server/epoll_run.c	3;"	d	file:
+MAX_ENENT	Web_program/TCP/epoll_server.c	13;"	d	file:
+MSG1	test.c	3;"	d	file:
+MSG2	test.c	4;"	d	file:
+Player	CPP_pro/playerMove.cpp	/^class Player {$/;"	c	file:
+SRC_IP	Web_program/TCP/client.c	9;"	d	file:
+SetLevel	CPP_pro/Log.cpp	/^    void SetLevel(int level) {$/;"	f	class:Log
+Socket	Web_program/Package_TCP/pack.c	/^int Socket(int domain, int type, int protocol)$/;"	f
+Socket	Web_program/TCP/pack.c	/^int Socket(int domain, int type, int protocol)$/;"	f
+SymbolMatch	Windowns/StackStructure/symbol_match.c	/^int SymbolMatch(char *str)$/;"	f
+TOP	Windowns/OTHER/O1ToFindMin_stack.c	/^static int TOP = 0;$/;"	v	file:
+TRUE	Web_program/test.c	/^typedef enum {FALSE, TRUE} Boolean;$/;"	e	enum:__anon4	file:
+TRUE	stuff/LinkedList/LinkedList_3.0/total.h	/^typedef enum{FALSE, TRUE} Boolean;$/;"	e	enum:__anon2
+Warn	CPP_pro/Log.cpp	/^    void Warn(const char *message) {$/;"	f	class:Log
+__MYMATH_H__	Lib_test/inc/mymath.h	2;"	d
+__PACK_H__	Web_program/Package_TCP/pack.h	2;"	d
+__PACK_H__	Web_program/TCP/pack.h	2;"	d
+__SUM_H__	MIX/loginsys/inc/sum.h	2;"	d
+__TOTAL_H__	Web_program/Web_server/total.h	2;"	d
+__TOTAL_H__	Windowns/LinkedList/LinkedList_1.0/total.h	2;"	d
+__TOTAL_H__	Windowns/LinkedList/LinkedList_2.0/total.h	2;"	d
+__TOTAL_H__	Windowns/LinkedList/LinkedList_3.0/total.h	2;"	d
+__TOTAL_H__	Windowns/Queue/total.h	2;"	d
+__TOTAL_H__	Windowns/StackStructure/total.h	2;"	d
+__TOTAL_H__	Windowns/TreeStructure/total.h	2;"	d
+__TOTAL_H__	Windowns/operation/total.h	2;"	d
+__TOTAL_H__	stuff/LinkedList/LinkedList_1.0/total.h	2;"	d
+__TOTAL_H__	stuff/LinkedList/LinkedList_2.0/total.h	2;"	d
+a	stuff/memset_bzero.c	/^	int a;$/;"	m	struct:tt	file:
+add	Lib_test/source/add.c	/^int add(int a, int b)$/;"	f
+add	Sys_program/FileIO/demo/1.c	/^int add(int a, int b)$/;"	f
+add	demo/dd/add.c	/^int add(int a, int b)$/;"	f
+add	stuff/gittest/2.c	/^int add(int a, int b)$/;"	f
+addInList	Windowns/LinkedList/LinkedList_1.0/addInList.c	/^struct node* addInList(struct node* head1, struct node* head2) $/;"	f
+addInList	stuff/LinkedList/LinkedList_1.0/addInList.c	/^struct node* addInList(struct node* head1, struct node* head2) $/;"	f
+administrator_interface	MIX/loginsys/src/interface.c	/^void administrator_interface()$/;"	f
+age	MIX/TEST/main.c	/^	int age;$/;"	m	struct:__anon5	file:
+age	Sys_program/IPC/mmap/demo/r_inmap.c	/^	int age;$/;"	m	struct:stud	file:
+age	Sys_program/IPC/mmap/demo/w_inmap.c	/^	int age;$/;"	m	struct:stud	file:
+alarm_free	stuff/LinkedList/LinkedList_3.0/main.c	/^void alarm_free(int sig)$/;"	f
+arr	stuff/memset_bzero.c	/^	int arr[3];$/;"	m	struct:tt	file:
+array1	MIX/demo.c	/^void array1(int a[], int n)$/;"	f
+b	stuff/memset_bzero.c	/^	char b[10];$/;"	m	struct:tt	file:
+binary_search	stuff/gittest/sort_search.c	/^int binary_search(int *arr, int tar, int l, int r)$/;"	f
+binary_search	stuff/sort_search.c	/^int binary_search(int *arr, int tar, int l, int r)$/;"	f
+blue	Windowns/LinkedList/LinkedList_3.0/test/tt.c	/^	blue$/;"	e	enum:__anon1	file:
+blue	stuff/LinkedList/LinkedList_3.0/test/tt.c	/^	blue$/;"	e	enum:__anon3	file:
+bubbleSort	stuff/gittest/sort_search.c	/^void bubbleSort(int *arr)$/;"	f
+bubbleSort	stuff/sort_search.c	/^void bubbleSort(int *arr)$/;"	f
+buf	Sys_program/Mul_thread/tes.c	/^static __thread char buf[100];$/;"	v	file:
+calculate	Windowns/operation/exp.c	/^int calculate(char *s)$/;"	f
+calculate	Windowns/operation/operation.c	/^int calculate(char *exp)$/;"	f
+cash	Windowns/SelCardGame.c	/^int cash = 100;$/;"	v
+cell_num	MIX/loginsys/inc/sum.h	/^	char cell_num[15];$/;"	m	struct:stu
+common_node	Windowns/LinkedList/LinkedList_1.0/isloop.c	/^struct node* common_node(struct node* p1, struct node* p2)$/;"	f
+common_node	stuff/LinkedList/LinkedList_1.0/isloop.c	/^struct node* common_node(struct node* p1, struct node* p2)$/;"	f
+compare	Windowns/operation/exp.c	/^int compare(char left, char right)$/;"	f
+compare	Windowns/operation/operation.c	/^int compare(char left, char right)$/;"	f
+cond	Sys_program/Thread_syn/prodcer_consumer.c	/^pthread_cond_t cond = PTHREAD_COND_INITIALIZER;$/;"	v
+consumer	Sys_program/Thread_syn/prodcer_consumer.c	/^void *consumer(void *arg)$/;"	f
+coundDown_K	Windowns/LinkedList/LinkedList_3.0/countDown_LL.c	/^ListNode *coundDown_K(ListNode *head, int k)$/;"	f
+coundDown_K	stuff/LinkedList/LinkedList_3.0/countDown_LL.c	/^ListNode *coundDown_K(ListNode *head, int k)$/;"	f
+count	Sys_program/Thread_syn/rwlock.c	/^int count = 0;$/;"	v
+create	Windowns/LinkedList/LinkedList_1.0/create.c	/^struct node* create()$/;"	f
+create	stuff/LinkedList/LinkedList_1.0/create.c	/^struct node* create()$/;"	f
+createNode	Windowns/TreeStructure/binaryTree.c	/^struct node* createNode(int val)$/;"	f
+create_LL	Windowns/LinkedList/LinkedList_2.0/LinkedList.c	/^struct node *create_LL(int num)$/;"	f
+create_LL	Windowns/LinkedList/LinkedList_3.0/linklist.c	/^ListNode *create_LL(void)$/;"	f
+create_LL	stuff/LinkedList/LinkedList_2.0/LinkedList.c	/^struct node *create_LL(int num)$/;"	f
+create_LL	stuff/LinkedList/LinkedList_3.0/linklist.c	/^ListNode *create_LL(void)$/;"	f
+del_connect	Web_program/Web_server/do_read.c	/^void del_connect(int cfd, int efd)$/;"	f
+delete_CoundDownK	Windowns/LinkedList/LinkedList_3.0/countDown_LL.c	/^ListNode *delete_CoundDownK(ListNode *head, int k)$/;"	f
+delete_CoundDownK	stuff/LinkedList/LinkedList_3.0/countDown_LL.c	/^ListNode *delete_CoundDownK(ListNode *head, int k)$/;"	f
+delete_down_k	Windowns/LinkedList/LinkedList_1.0/reverse.c	/^struct node* delete_down_k(struct node* head, int k)$/;"	f
+delete_down_k	stuff/LinkedList/LinkedList_1.0/reverse.c	/^struct node* delete_down_k(struct node* head, int k)$/;"	f
+delete_rep	Windowns/LinkedList/LinkedList_1.0/delete.c	/^struct node* delete_rep(struct node* head)$/;"	f
+delete_rep	stuff/LinkedList/LinkedList_1.0/delete.c	/^struct node* delete_rep(struct node* head)$/;"	f
+delete_rep_all	Windowns/LinkedList/LinkedList_1.0/delete.c	/^struct node* delete_rep_all(struct node* head)$/;"	f
+delete_rep_all	stuff/LinkedList/LinkedList_1.0/delete.c	/^struct node* delete_rep_all(struct node* head)$/;"	f
+div	Sys_program/FileIO/demo/2.c	/^int div(int a, int b)$/;"	f
+divisor	Arithmetic/common_div_mul.c	/^int divisor(int sum1, int sum2)$/;"	f
+do_accept	Web_program/Web_server/do_accept.c	/^int do_accept(int sfd, int efd)$/;"	f
+do_read	Web_program/Web_server/do_read.c	/^void do_read(int cfd, int efd)$/;"	f
+down	Windowns/LinkedList/LinkedList_1.0/reverse.c	/^struct node* down(struct node* pHead)$/;"	f
+down	stuff/LinkedList/LinkedList_1.0/reverse.c	/^struct node* down(struct node* pHead)$/;"	f
+epoll_run	Web_program/Web_server/epoll_run.c	/^void epoll_run(int port)$/;"	f
+f_type	Web_program/Web_server/f_type.c	/^const char *f_type(char *name)$/;"	f
+findMin	Windowns/TreeStructure/deleteNode.c	/^struct node* findMin(struct node* root)$/;"	f
+findNode	Windowns/TreeStructure/getPreSuc.c	/^struct node* findNode(struct node* root, int tar)$/;"	f
+find_loopNode	Windowns/LinkedList/LinkedList_2.0/loopLL.c	/^struct node *find_loopNode(struct node *head)$/;"	f
+find_loopNode	stuff/LinkedList/LinkedList_2.0/loopLL.c	/^struct node *find_loopNode(struct node *head)$/;"	f
+fineLoopnode	Windowns/LinkedList/LinkedList_3.0/loopLinkedList.c	/^ListNode *fineLoopnode(ListNode *head)$/;"	f
+fineLoopnode	stuff/LinkedList/LinkedList_3.0/loopLinkedList.c	/^ListNode *fineLoopnode(ListNode *head)$/;"	f
+flip_LL	Windowns/LinkedList/LinkedList_2.0/flip.c	/^struct node *flip_LL(struct node *p)$/;"	f
+flip_LL	stuff/LinkedList/LinkedList_2.0/flip.c	/^struct node *flip_LL(struct node *p)$/;"	f
+flip_Whole	Windowns/LinkedList/LinkedList_3.0/flip.c	/^ListNode *flip_Whole(ListNode *head)$/;"	f
+flip_Whole	stuff/LinkedList/LinkedList_3.0/flip.c	/^ListNode *flip_Whole(ListNode *head)$/;"	f
+flip_between_nm	Windowns/LinkedList/LinkedList_2.0/flip.c	/^struct node *flip_between_nm(struct node *head, int n, int m)$/;"	f
+flip_between_nm	Windowns/LinkedList/LinkedList_3.0/flip.c	/^ListNode *flip_between_nm(ListNode *head, int n, int m)$/;"	f
+flip_between_nm	stuff/LinkedList/LinkedList_2.0/flip.c	/^struct node *flip_between_nm(struct node *head, int n, int m)$/;"	f
+flip_between_nm	stuff/LinkedList/LinkedList_3.0/flip.c	/^ListNode *flip_between_nm(ListNode *head, int n, int m)$/;"	f
+flip_perK	Windowns/LinkedList/LinkedList_2.0/flip.c	/^struct node *flip_perK(struct node *head, int k)$/;"	f
+flip_perK	stuff/LinkedList/LinkedList_2.0/flip.c	/^struct node *flip_perK(struct node *head, int k)$/;"	f
+flip_perKground	Windowns/LinkedList/LinkedList_2.0/flip.c	/^struct node *flip_perKground(struct node *head, int k)$/;"	f
+flip_perKground	stuff/LinkedList/LinkedList_2.0/flip.c	/^struct node *flip_perKground(struct node *head, int k)$/;"	f
+flip_perNgrop	Windowns/LinkedList/LinkedList_3.0/flip.c	/^ListNode *flip_perNgrop(ListNode *head, int n)$/;"	f
+flip_perNgrop	stuff/LinkedList/LinkedList_3.0/flip.c	/^ListNode *flip_perNgrop(ListNode *head, int n)$/;"	f
+flip_perNgrop_recurse	Windowns/LinkedList/LinkedList_3.0/flip.c	/^ListNode *flip_perNgrop_recurse(ListNode *head, int n)$/;"	f
+flip_perNgrop_recurse	stuff/LinkedList/LinkedList_3.0/flip.c	/^ListNode *flip_perNgrop_recurse(ListNode *head, int n)$/;"	f
+flip_recurse	Windowns/LinkedList/LinkedList_2.0/flip.c	/^struct node *flip_recurse(struct node *head)$/;"	f
+flip_recurse	Windowns/LinkedList/LinkedList_3.0/flip.c	/^ListNode *flip_recurse(ListNode *head)$/;"	f
+flip_recurse	stuff/LinkedList/LinkedList_2.0/flip.c	/^struct node *flip_recurse(struct node *head)$/;"	f
+flip_recurse	stuff/LinkedList/LinkedList_3.0/flip.c	/^ListNode *flip_recurse(ListNode *head)$/;"	f
+free_LL	Windowns/LinkedList/LinkedList_2.0/LinkedList.c	/^struct node *free_LL(struct node *head, struct node *tail)$/;"	f
+free_LL	Windowns/LinkedList/LinkedList_3.0/linklist.c	/^ListNode *free_LL(ListNode *start, ListNode *end)$/;"	f
+free_LL	stuff/LinkedList/LinkedList_2.0/LinkedList.c	/^struct node *free_LL(struct node *head, struct node *tail)$/;"	f
+free_LL	stuff/LinkedList/LinkedList_3.0/linklist.c	/^ListNode *free_LL(ListNode *start, ListNode *end)$/;"	f
+func	Sys_program/Mul_thread/attr_detach.c	/^void *func(void *arg)$/;"	f
+func	Sys_program/Mul_thread/detach.c	/^void *func(void *arg)$/;"	f
+func	Sys_program/Mul_thread/join_mul.c	/^void *func(void *arg)$/;"	f
+func	Sys_program/Mul_thread/mul_thread.c	/^void *func(void *arg)$/;"	f
+func	Sys_program/Mul_thread/thread_join.c	/^void *func(void *arg)$/;"	f
+func	Sys_program/Thread_syn/mutex.c	/^void *func(void *arg)$/;"	f
+func1	Sys_program/Thread_syn/deadly_embrace.c	/^void *func1(void *arg)$/;"	f
+gender	MIX/TEST/demo1.c	/^	char gender[10];$/;"	m	struct:su	file:
+gender	MIX/loginsys/inc/sum.h	/^	char gender[10];$/;"	m	struct:stu
+getPrecursor	Windowns/TreeStructure/getPreSuc.c	/^int getPrecursor(struct node* root, int tar)$/;"	f
+getSuccessor	Windowns/TreeStructure/getPreSuc.c	/^int getSuccessor(struct node* root, int tar)$/;"	f
+get_line	Web_program/Web_server/do_read.c	/^int get_line(int cfd, char *buf, int size)$/;"	f
+gettail	Windowns/LinkedList/LinkedList_1.0/create.c	/^struct node* gettail(struct node* head)$/;"	f
+gettail	stuff/LinkedList/LinkedList_1.0/create.c	/^struct node* gettail(struct node* head)$/;"	f
+gp	MIX/TEST/main.c	/^}guy[3] = {{"Rachel", 1}, {"Ross", 2}, {"Joey", 3}}, *gp;$/;"	v	typeref:struct:__anon5
+green	Windowns/LinkedList/LinkedList_3.0/test/tt.c	/^	green,$/;"	e	enum:__anon1	file:
+green	stuff/LinkedList/LinkedList_3.0/test/tt.c	/^	green,$/;"	e	enum:__anon3	file:
+guy	MIX/TEST/main.c	/^}guy[3] = {{"Rachel", 1}, {"Ross", 2}, {"Joey", 3}}, *gp;$/;"	v	typeref:struct:__anon5
+hanio	Windowns/OTHER/Hanio.c	/^void hanio(int n, char A, char B, char C)$/;"	f
+hanio	stuff/Hanio.c	/^void hanio(int n, char A, char B, char C)$/;"	f
+hanio	stuff/gittest/Hanio.c	/^void hanio(int n, char A, char B, char C)$/;"	f
+has_commondNode	Windowns/LinkedList/LinkedList_3.0/commodNode.c	/^int has_commondNode(ListNode *p1, ListNode *p2)$/;"	f
+has_commondNode	stuff/LinkedList/LinkedList_3.0/commodNode.c	/^int has_commondNode(ListNode *p1, ListNode *p2)$/;"	f
+has_commondNode_v2	Windowns/LinkedList/LinkedList_3.0/commodNode.c	/^int has_commondNode_v2(ListNode *p1, ListNode *p2)$/;"	f
+has_commondNode_v2	stuff/LinkedList/LinkedList_3.0/commodNode.c	/^int has_commondNode_v2(ListNode *p1, ListNode *p2)$/;"	f
+head	Sys_program/Thread_syn/prodcer_consumer.c	/^struct ms *head = NULL;$/;"	v	typeref:struct:ms
+head	Windowns/OTHER/TwoStactToQueue.c	/^static int head[100]; $/;"	v	file:
+head	Windowns/StackStructure/main.c	/^struct node* head = NULL;$/;"	v	typeref:struct:node
+heap	Windowns/OTHER/DetectOperator.c	/^static int heap = -1;$/;"	v	file:
+heap	Windowns/operation/exp.c	/^static struct postfix* heap = NULL;$/;"	v	typeref:struct:postfix	file:
+hobby	MIX/loginsys/inc/sum.h	/^	char hobby[3][10]; $/;"	m	struct:stu
+id	Sys_program/IPC/mmap/demo/r_inmap.c	/^	int id;$/;"	m	struct:stud	file:
+id	Sys_program/IPC/mmap/demo/w_inmap.c	/^	int id;$/;"	m	struct:stud	file:
+init_listen_fd	Web_program/Web_server/init_listen_fd.c	/^int init_listen_fd(int port, int efd)$/;"	f
+inorder	Windowns/TreeStructure/traversal.c	/^void inorder(struct node* root)$/;"	f
+insert	Windowns/TreeStructure/binaryTree.c	/^struct node* insert(struct node* root, int val)$/;"	f
+insertNode	Windowns/TreeStructure/binaryTree.c	/^struct node* insertNode(struct node** root, int val)$/;"	f
+insert_loopNode	Windowns/LinkedList/LinkedList_2.0/loopLL.c	/^struct node *insert_loopNode(struct node *head, int num)$/;"	f
+insert_loopNode	Windowns/LinkedList/LinkedList_3.0/loopLinkedList.c	/^ListNode *insert_loopNode(ListNode *head, int num)$/;"	f
+insert_loopNode	stuff/LinkedList/LinkedList_2.0/loopLL.c	/^struct node *insert_loopNode(struct node *head, int num)$/;"	f
+insert_loopNode	stuff/LinkedList/LinkedList_3.0/loopLinkedList.c	/^ListNode *insert_loopNode(ListNode *head, int num)$/;"	f
+integer_judge	MIX/loginsys/src/input_judge.c	/^void integer_judge(int *p, char *error, int *array, int n)$/;"	f
+isdir	Sys_program/FileIO/reclsdir.c	/^int isdir(const char *path)$/;"	f
+isloop	Windowns/LinkedList/LinkedList_1.0/isloop.c	/^int isloop(struct node* head)$/;"	f
+isloop	Windowns/LinkedList/LinkedList_2.0/loopLL.c	/^int isloop(struct node *head)$/;"	f
+isloop	Windowns/LinkedList/LinkedList_3.0/loopLinkedList.c	/^int isloop(ListNode *head)$/;"	f
+isloop	stuff/LinkedList/LinkedList_1.0/isloop.c	/^int isloop(struct node* head)$/;"	f
+isloop	stuff/LinkedList/LinkedList_2.0/loopLL.c	/^int isloop(struct node *head)$/;"	f
+isloop	stuff/LinkedList/LinkedList_3.0/loopLinkedList.c	/^Boolean isloop(ListNode *head)$/;"	f
+joint2_Orderd	Windowns/LinkedList/LinkedList_2.0/joint_orderd.c	/^struct node *joint2_Orderd(struct node *p1, struct node *p2)$/;"	f
+joint2_Orderd	stuff/LinkedList/LinkedList_2.0/joint_orderd.c	/^struct node *joint2_Orderd(struct node *p1, struct node *p2)$/;"	f
+joint2_Orderd_recurse	Windowns/LinkedList/LinkedList_2.0/joint_orderd.c	/^struct node *joint2_Orderd_recurse(struct node *p1, struct node *p2)$/;"	f
+joint2_Orderd_recurse	stuff/LinkedList/LinkedList_2.0/joint_orderd.c	/^struct node *joint2_Orderd_recurse(struct node *p1, struct node *p2)$/;"	f
+jointK_Orderd	Windowns/LinkedList/LinkedList_2.0/joint_orderd.c	/^struct node *jointK_Orderd(struct node **lists, int listLen)$/;"	f
+jointK_Orderd	stuff/LinkedList/LinkedList_2.0/joint_orderd.c	/^struct node *jointK_Orderd(struct node **lists, int listLen)$/;"	f
+joint_2	Windowns/LinkedList/LinkedList_1.0/joint.c	/^struct node* joint_2(struct node* p1, struct node* p2) $/;"	f
+joint_2	stuff/LinkedList/LinkedList_1.0/joint.c	/^struct node* joint_2(struct node* p1, struct node* p2) $/;"	f
+joint_LinkedList	Windowns/LinkedList/LinkedList_3.0/joint_LinkedList.c	/^ListNode *joint_LinkedList(ListNode *p1, ListNode *p2)$/;"	f
+joint_LinkedList	stuff/LinkedList/LinkedList_3.0/joint_LinkedList.c	/^ListNode *joint_LinkedList(ListNode *p1, ListNode *p2)$/;"	f
+joint_LinkedList_recurse	Windowns/LinkedList/LinkedList_3.0/joint_LinkedList.c	/^ListNode *joint_LinkedList_recurse(ListNode *p1, ListNode *p2)$/;"	f
+joint_LinkedList_recurse	stuff/LinkedList/LinkedList_3.0/joint_LinkedList.c	/^ListNode *joint_LinkedList_recurse(ListNode *p1, ListNode *p2)$/;"	f
+joint_commondNode	Windowns/LinkedList/LinkedList_3.0/commodNode.c	/^void joint_commondNode(ListNode *p1, ListNode *p2, int p1_nu, int p2_nu)$/;"	f
+joint_commondNode	stuff/LinkedList/LinkedList_3.0/commodNode.c	/^void joint_commondNode(ListNode *p1, ListNode *p2, int p1_nu, int p2_nu)$/;"	f
+joint_new	Windowns/LinkedList/LinkedList_1.0/joint.c	/^struct node* joint_new(struct node* p1, struct node* p2)$/;"	f
+joint_new	stuff/LinkedList/LinkedList_1.0/joint.c	/^struct node* joint_new(struct node* p1, struct node* p2)$/;"	f
+left	Windowns/TreeStructure/total.h	/^	struct node* left;$/;"	m	struct:node	typeref:struct:node::node
+lock	Sys_program/Thread_syn/rwlock.c	/^pthread_rwlock_t lock;$/;"	v
+loop_node	Windowns/LinkedList/LinkedList_1.0/isloop.c	/^struct node* loop_node(struct node* head)$/;"	f
+loop_node	stuff/LinkedList/LinkedList_1.0/isloop.c	/^struct node* loop_node(struct node* head)$/;"	f
+m_LogLevel	CPP_pro/Log.cpp	/^    int m_LogLevel;$/;"	m	class:Log	file:
+main	Arithmetic/common_div_mul.c	/^int main(void)$/;"	f
+main	CPP_pro/Log.cpp	/^int main(void)$/;"	f
+main	CPP_pro/cowsay.cpp	/^int main() {$/;"	f
+main	CPP_pro/playerMove.cpp	/^int main(void)$/;"	f
+main	CPP_pro/tp_set/double2int.cpp	/^int main(void)$/;"	f
+main	CPP_pro/tp_set/maxNUM.cpp	/^int main(void)$/;"	f
+main	CPP_pro/tp_set/operate2num.cpp	/^int main(void)$/;"	f
+main	CPP_pro/tp_set/sizeType.cpp	/^int main(void)$/;"	f
+main	CPP_pro/tp_set/sum.cpp	/^int main(void)$/;"	f
+main	CPP_pro/tp_set/swap2num.cpp	/^int main(void)$/;"	f
+main	CPP_pro/tp_set/ternaryExp.cpp	/^int main(void)$/;"	f
+main	MIX/TEST/demo1.c	/^int main(void)$/;"	f
+main	MIX/TEST/main.c	/^int main(void)$/;"	f
+main	MIX/TEST/test.c	/^int main(void)$/;"	f
+main	MIX/demo.c	/^int main(void)$/;"	f
+main	MIX/loginsys/src/main.c	/^int main(void)$/;"	f
+main	MIX/test.c	/^int main(void)$/;"	f
+main	Sys_program/FileIO/demo/main.c	/^int main(void)$/;"	f
+main	Sys_program/FileIO/rdwr.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/FileIO/readdir.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/FileIO/reclsdir.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/FileIO/stat.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/FileIO/test.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/FileIO/truncate.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/FileIO/tt.c	/^int main(void)$/;"	f
+main	Sys_program/IPC/FIFO/rd_fifo.c	/^int main(void)$/;"	f
+main	Sys_program/IPC/FIFO/wr_fifo.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/IPC/mmap/anon_map.c	/^int main(void)$/;"	f
+main	Sys_program/IPC/mmap/demo/r_inmap.c	/^int main(void)$/;"	f
+main	Sys_program/IPC/mmap/demo/w_inmap.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/IPC/mmap/par_chil_ipc.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/IPC/pipe/mulwr_sigrd.c	/^int main(int argc, char *argv[])$/;"	f
+main	Sys_program/IPC/pipe/pipe.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/IPC/pipe/pipe_sum.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/IPC/signal/alarm.c	/^int main(void)$/;"	f
+main	Sys_program/IPC/signal/demo.c	/^int main(void)$/;"	f
+main	Sys_program/IPC/signal/mask_pending.c	/^int main(void)$/;"	f
+main	Sys_program/IPC/signal/recycle_child.c	/^int main(void)$/;"	f
+main	Sys_program/IPC/signal/sigaction.c	/^int main(void)$/;"	f
+main	Sys_program/IPC/signal/signal.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_process/daemon_create.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/Mul_process/demo/1.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_process/demo/2.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_process/demo/call_child.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/Mul_process/exec.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/Mul_process/printpid.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/Mul_process/recycle_proc.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/Mul_process/shareVar.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_process/test.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_process/wait_proc.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/Mul_process/waitpid_proc.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/Mul_thread/attr_detach.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_thread/create_thread.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_thread/detach.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_thread/join_mul.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_thread/mul_thread.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_thread/tes.c	/^int main(void)$/;"	f
+main	Sys_program/Mul_thread/thread_join.c	/^int main(void)$/;"	f
+main	Sys_program/Thread_syn/deadly_embrace.c	/^int main(void)$/;"	f
+main	Sys_program/Thread_syn/mutex.c	/^int main(void)$/;"	f
+main	Sys_program/Thread_syn/prodcer_consumer.c	/^int main(int argc, char **argv)$/;"	f
+main	Sys_program/Thread_syn/rwlock.c	/^int main(int argc, char **argv)$/;"	f
+main	Web_program/Libevent/Reg_event/read_side.c	/^int main(void)$/;"	f
+main	Web_program/Libevent/Reg_event/write_side.c	/^int main(void)$/;"	f
+main	Web_program/Libevent/check_mulIO.c	/^int main(void)$/;"	f
+main	Web_program/TCP/client.c	/^int main(void)$/;"	f
+main	Web_program/TCP/demo.c	/^int main()$/;"	f
+main	Web_program/TCP/epoll_ET_LT.c	/^int main(void)$/;"	f
+main	Web_program/TCP/epoll_server.c	/^int main(int argc, char **argv)$/;"	f
+main	Web_program/TCP/mul_proc_server.c	/^int main(int argc, char **argv)$/;"	f
+main	Web_program/TCP/select_server.c	/^int main(void)$/;"	f
+main	Web_program/TCP/server.c	/^int main(int argc, char **argv)$/;"	f
+main	Web_program/TCP/test.c	/^int main(int argc, char **argv)$/;"	f
+main	Web_program/UDP/client.c	/^int main(void)$/;"	f
+main	Web_program/UDP/server.c	/^int main(void)$/;"	f
+main	Web_program/Web_server/main.c	/^int main(int argc, char **argv)$/;"	f
+main	Web_program/test.c	/^int main(void)$/;"	f
+main	Windowns/LinkedList/LinkedList_1.0/main.c	/^int main(void)$/;"	f
+main	Windowns/LinkedList/LinkedList_2.0/main.c	/^int main(int argc, char **argv)$/;"	f
+main	Windowns/LinkedList/LinkedList_3.0/main.c	/^int main(int argc, char *argv[])$/;"	f
+main	Windowns/LinkedList/LinkedList_3.0/test/demo.c	/^int main(int argc, char *argv[])$/;"	f
+main	Windowns/LinkedList/LinkedList_3.0/test/qq.c	/^int main(void)$/;"	f
+main	Windowns/LinkedList/LinkedList_3.0/test/tt.c	/^int main(void)$/;"	f
+main	Windowns/OTHER/DetectOperator.c	/^int main()$/;"	f
+main	Windowns/OTHER/Hanio.c	/^int main()$/;"	f
+main	Windowns/OTHER/O1ToFindMin_stack.c	/^int main(void)$/;"	f
+main	Windowns/OTHER/TwoStactToQueue.c	/^int main(void)$/;"	f
+main	Windowns/Queue/arrayImplementation/ArrayQueue.c	/^int main(void)$/;"	f
+main	Windowns/SelCardGame.c	/^int main(void)$/;"	f
+main	Windowns/StackStructure/main.c	/^int main(void)$/;"	f
+main	Windowns/TreeStructure/main.c	/^int main(void)$/;"	f
+main	Windowns/operation/exp.c	/^int main(void)$/;"	f
+main	Windowns/operation/main.c	/^int main(void)$/;"	f
+main	Windowns/test.c	/^int main()$/;"	f
+main	demo/dd/main.c	/^int main(void)$/;"	f
+main	stuff/C_world.c	/^int main(void)$/;"	f
+main	stuff/Hanio.c	/^int main()$/;"	f
+main	stuff/LinkedList/LinkedList_1.0/main.c	/^int main(void)$/;"	f
+main	stuff/LinkedList/LinkedList_2.0/main.c	/^int main(int argc, char **argv)$/;"	f
+main	stuff/LinkedList/LinkedList_3.0/main.c	/^int main(int argc, char *argv[])$/;"	f
+main	stuff/LinkedList/LinkedList_3.0/test/demo.c	/^int main(int argc, char *argv[])$/;"	f
+main	stuff/LinkedList/LinkedList_3.0/test/qq.c	/^int main(void)$/;"	f
+main	stuff/LinkedList/LinkedList_3.0/test/tt.c	/^int main(void)$/;"	f
+main	stuff/R随机分组.c	/^int main(void)$/;"	f
+main	stuff/gittest/1.c	/^int main(void)$/;"	f
+main	stuff/gittest/C_world.c	/^int main(void)$/;"	f
+main	stuff/gittest/Hanio.c	/^int main()$/;"	f
+main	stuff/gittest/R随机分组.c	/^int main(void)$/;"	f
+main	stuff/gittest/demo.c	/^int main(void)$/;"	f
+main	stuff/gittest/sort_search.c	/^int main(int argc, char **argv)$/;"	f
+main	stuff/gittest/test.c	/^int main(void)$/;"	f
+main	stuff/memset_bzero.c	/^int main(void) $/;"	f
+main	stuff/sort_search.c	/^int main(int argc, char **argv)$/;"	f
+main	stuff/test.c	/^int main(void)$/;"	f
+main	test.c	/^int main(void)$/;"	f
+merge2	Windowns/LinkedList/LinkedList_1.0/joint.c	/^struct node* merge2(struct node* p1, struct node* p2)$/;"	f
+merge2	stuff/LinkedList/LinkedList_1.0/joint.c	/^struct node* merge2(struct node* p1, struct node* p2)$/;"	f
+mergeKLists	Windowns/LinkedList/LinkedList_3.0/joint_LinkedList.c	/^ListNode *mergeKLists(ListNode **lists, int listslen)$/;"	f
+mergeKLists	stuff/LinkedList/LinkedList_3.0/joint_LinkedList.c	/^ListNode *mergeKLists(ListNode **lists, int listslen)$/;"	f
+mergeKLists_LR	Windowns/LinkedList/LinkedList_3.0/joint_LinkedList.c	/^ListNode *mergeKLists_LR(ListNode **lists, int left, int right)$/;"	f
+mergeKLists_LR	stuff/LinkedList/LinkedList_3.0/joint_LinkedList.c	/^static ListNode *mergeKLists_LR(ListNode **lists, int left, int right)$/;"	f	file:
+merge_rec	Windowns/LinkedList/LinkedList_1.0/joint.c	/^struct node* merge_rec(struct node* p1, struct node* p2)$/;"	f
+merge_rec	stuff/LinkedList/LinkedList_1.0/joint.c	/^struct node* merge_rec(struct node* p1, struct node* p2)$/;"	f
+min	Windowns/OTHER/O1ToFindMin_stack.c	/^int min()$/;"	f
+move	CPP_pro/playerMove.cpp	/^        void move(char act) {$/;"	f	class:Player
+ms	Sys_program/Thread_syn/prodcer_consumer.c	/^struct ms{$/;"	s	file:
+ms1	Sys_program/IPC/pipe/mulwr_sigrd.c	8;"	d	file:
+ms2	Sys_program/IPC/pipe/mulwr_sigrd.c	9;"	d	file:
+ms3	Sys_program/IPC/pipe/mulwr_sigrd.c	10;"	d	file:
+mul	Sys_program/FileIO/demo/3.c	/^int mul(int a, int b)$/;"	f
+mul	stuff/gittest/3.c	/^int mul(int a, int b)$/;"	f
+multiple	Arithmetic/common_div_mul.c	/^int multiple(int sum1, int sum2)$/;"	f
+mutex	Sys_program/Thread_syn/mutex.c	/^pthread_mutex_t mutex;$/;"	v
+mutex	Sys_program/Thread_syn/prodcer_consumer.c	/^pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+mutex1	Sys_program/Thread_syn/deadly_embrace.c	/^pthread_mutex_t mutex1;$/;"	v
+myprint	Windowns/LinkedList/LinkedList_1.0/create.c	/^struct node* myprint(struct node* pHead)$/;"	f
+myprint	Windowns/StackStructure/stact.c	/^void myprint(struct node* head)$/;"	f
+myprint	stuff/LinkedList/LinkedList_1.0/create.c	/^struct node* myprint(struct node* pHead)$/;"	f
+name	MIX/TEST/demo1.c	/^	char name[15];$/;"	m	struct:su	file:
+name	MIX/TEST/main.c	/^	char name[30];$/;"	m	struct:__anon5	file:
+name	MIX/loginsys/inc/sum.h	/^	char name[30];$/;"	m	struct:stu
+name	Sys_program/IPC/mmap/demo/r_inmap.c	/^	char name[256];$/;"	m	struct:stud	file:
+name	Sys_program/IPC/mmap/demo/w_inmap.c	/^	char name[256];$/;"	m	struct:stud	file:
+next	Sys_program/Thread_syn/prodcer_consumer.c	/^	struct ms *next;$/;"	m	struct:ms	typeref:struct:ms::ms	file:
+next	Windowns/LinkedList/LinkedList_1.0/total.h	/^	struct node* next;$/;"	m	struct:node	typeref:struct:node::node
+next	Windowns/LinkedList/LinkedList_2.0/total.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	Windowns/LinkedList/LinkedList_3.0/total.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	Windowns/Queue/total.h	/^	struct node* next;$/;"	m	struct:node	typeref:struct:node::node
+next	Windowns/StackStructure/total.h	/^	struct node* next;$/;"	m	struct:node	typeref:struct:node::node
+next	Windowns/TreeStructure/total.h	/^	struct node* next;$/;"	m	struct:node	typeref:struct:node::node
+next	Windowns/operation/exp.c	/^	struct postfix* next;$/;"	m	struct:postfix	typeref:struct:postfix::postfix	file:
+next	Windowns/operation/total.h	/^	struct postfix* next;$/;"	m	struct:postfix	typeref:struct:postfix::postfix
+next	stuff/LinkedList/LinkedList_1.0/total.h	/^	struct node* next;$/;"	m	struct:node	typeref:struct:node::node
+next	stuff/LinkedList/LinkedList_2.0/total.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	stuff/LinkedList/LinkedList_3.0/total.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+node	Windowns/LinkedList/LinkedList_1.0/total.h	/^struct node{$/;"	s
+node	Windowns/LinkedList/LinkedList_2.0/total.h	/^struct node{$/;"	s
+node	Windowns/LinkedList/LinkedList_3.0/total.h	/^typedef struct node{$/;"	s
+node	Windowns/Queue/total.h	/^struct node{$/;"	s
+node	Windowns/StackStructure/total.h	/^struct node{$/;"	s
+node	Windowns/TreeStructure/total.h	/^struct node{$/;"	s
+node	stuff/LinkedList/LinkedList_1.0/total.h	/^struct node{$/;"	s
+node	stuff/LinkedList/LinkedList_2.0/total.h	/^struct node{$/;"	s
+node	stuff/LinkedList/LinkedList_3.0/total.h	/^typedef struct node{$/;"	s
+number	MIX/loginsys/inc/sum.h	/^	int number;$/;"	m	struct:stu
+obj	MIX/loginsys/Makefile	/^obj = $(patsubst .\/src\/%.c, .\/obj\/%.o, $(src))$/;"	m
+obj	Web_program/Web_server/Makefile	/^obj = $(patsubst %.c, .\/Object\/%.o, $(src))$/;"	m
+obj	Windowns/LinkedList/LinkedList_1.0/Makefile	/^obj = $(patsubst .\/%.c, .\/object\/%.o, $(src))$/;"	m
+obj	Windowns/LinkedList/LinkedList_2.0/Makefile	/^obj = $(patsubst %.c, .\/object\/%.o, $(src))$/;"	m
+obj	Windowns/LinkedList/LinkedList_3.0/Makefile	/^obj = $(patsubst .\/%.c, .\/object\/%.o, $(src))$/;"	m
+obj	stuff/LinkedList/LinkedList_1.0/Makefile	/^obj = $(patsubst .\/%.c, .\/object\/%.o, $(src))$/;"	m
+obj	stuff/LinkedList/LinkedList_2.0/Makefile	/^obj = $(patsubst %.c, .\/object\/%.o, $(src))$/;"	m
+obj	stuff/LinkedList/LinkedList_3.0/Makefile	/^obj = $(patsubst .\/%.c, .\/object\/%.o, $(src))$/;"	m
+object	Windowns/TreeStructure/Makefile	/^object = main.o traversal.o reserch.o deleteNode.o binaryTree.o getPreSuc.o $/;"	m
+odd_even_reset	Windowns/LinkedList/LinkedList_1.0/odd_even_reset.c	/^struct node* odd_even_reset(struct node* head)$/;"	f
+odd_even_reset	stuff/LinkedList/LinkedList_1.0/odd_even_reset.c	/^struct node* odd_even_reset(struct node* head)$/;"	f
+passwd	MIX/TEST/demo1.c	/^	int passwd;$/;"	m	struct:su	file:
+phead	Windowns/OTHER/TwoStactToQueue.c	/^static int phead = 0;$/;"	v	file:
+play	Windowns/SelCardGame.c	/^void play(int bet)$/;"	f
+pop	Windowns/OTHER/DetectOperator.c	/^void pop()$/;"	f
+pop	Windowns/OTHER/O1ToFindMin_stack.c	/^void pop()$/;"	f
+pop	Windowns/OTHER/TwoStactToQueue.c	/^int pop()$/;"	f
+pop	Windowns/StackStructure/stact.c	/^int pop()$/;"	f
+pop	Windowns/operation/exp.c	/^void pop()$/;"	f
+pop	Windowns/operation/operation.c	/^char pop(struct postfix** heap)$/;"	f
+popchar	Windowns/StackStructure/stact.c	/^char popchar()$/;"	f
+popnode	Windowns/StackStructure/stact.c	/^struct node* popnode()$/;"	f
+postfix	Windowns/operation/exp.c	/^struct postfix{$/;"	s	file:
+postfix	Windowns/operation/total.h	/^struct postfix{$/;"	s
+postorder	Windowns/TreeStructure/traversal.c	/^void postorder(struct node* root)$/;"	f
+pp	CPP_pro/tp_set/sizeType.cpp	/^void pp()$/;"	f
+pp	Sys_program/Mul_thread/create_thread.c	/^void *pp(void *arg)$/;"	f
+pp	stuff/memset_bzero.c	/^	struct tt *pp;$/;"	m	struct:tt	typeref:struct:tt::tt	file:
+preorder	Windowns/TreeStructure/traversal.c	/^void preorder(struct node* root)$/;"	f
+print	Windowns/Queue/arrayImplementation/ArrayQueue.c	/^void print(int* arr, int f, int r)$/;"	f
+print_LL	Windowns/LinkedList/LinkedList_2.0/main.c	/^void print_LL(struct node *head, char *ms)$/;"	f
+print_LL	Windowns/LinkedList/LinkedList_3.0/linklist.c	/^void print_LL(ListNode *head, const char *ms)$/;"	f
+print_LL	stuff/LinkedList/LinkedList_2.0/main.c	/^void print_LL(struct node *head, char *ms)$/;"	f
+print_LL	stuff/LinkedList/LinkedList_3.0/linklist.c	/^void print_LL(ListNode *head, const char *ms)$/;"	f
+printarr	stuff/gittest/sort_search.c	/^void printarr(int *arr, char *ms)$/;"	f
+printarr	stuff/sort_search.c	/^void printarr(int *arr, char *ms)$/;"	f
+printbit	Sys_program/IPC/signal/mask_pending.c	/^void printbit(sigset_t *set)$/;"	f
+producer	Sys_program/Thread_syn/prodcer_consumer.c	/^void *producer(void *arg)$/;"	f
+ptail	Windowns/OTHER/TwoStactToQueue.c	/^static int ptail = 0;$/;"	v	file:
+push	Windowns/OTHER/DetectOperator.c	/^void push(char c)$/;"	f
+push	Windowns/OTHER/O1ToFindMin_stack.c	/^void push(int value)$/;"	f
+push	Windowns/OTHER/TwoStactToQueue.c	/^void push(int node)$/;"	f
+push	Windowns/StackStructure/stact.c	/^void push(int num)$/;"	f
+push	Windowns/operation/exp.c	/^void push(char p, int val)$/;"	f
+push	Windowns/operation/operation.c	/^void push(struct postfix** heap, char p, int val)$/;"	f
+pushchar	Windowns/StackStructure/stact.c	/^void pushchar(char sign)$/;"	f
+quickSort	stuff/gittest/sort_search.c	/^void quickSort(int *arr, int start, int end)$/;"	f
+quickSort	stuff/sort_search.c	/^void quickSort(int *arr, int start, int end)$/;"	f
+rand_creatArray	stuff/gittest/sort_search.c	/^void rand_creatArray(int *arr)$/;"	f
+rand_creatArray	stuff/sort_search.c	/^void rand_creatArray(int *arr)$/;"	f
+read_cb	Web_program/Libevent/Reg_event/read_side.c	/^void read_cb(evutil_socket_t fd, short what, void *arg)$/;"	f
+read_thread	Sys_program/Thread_syn/rwlock.c	/^void *read_thread(void *arg)$/;"	f
+recOrderdir	Sys_program/FileIO/reclsdir.c	/^void recOrderdir(char *path)$/;"	f
+recycle_child	Sys_program/IPC/signal/demo.c	/^void recycle_child(int signum)$/;"	f
+recycle_child	Sys_program/IPC/signal/recycle_child.c	/^void recycle_child(int signum)$/;"	f
+recycle_child	Web_program/TCP/mul_proc_server.c	/^void recycle_child(int signum)$/;"	f
+red	Windowns/LinkedList/LinkedList_3.0/test/tt.c	/^	red = 5,$/;"	e	enum:__anon1	file:
+red	stuff/LinkedList/LinkedList_3.0/test/tt.c	/^	red = 5,$/;"	e	enum:__anon3	file:
+release	Windowns/LinkedList/LinkedList_1.0/main.c	/^void release(struct node* pHead, struct node* end)$/;"	f
+release	stuff/LinkedList/LinkedList_1.0/main.c	/^void release(struct node* pHead, struct node* end)$/;"	f
+rev	Windowns/LinkedList/LinkedList_1.0/addInList.c	/^struct node* rev(struct node* p)$/;"	f
+rev	stuff/LinkedList/LinkedList_1.0/addInList.c	/^struct node* rev(struct node* p)$/;"	f
+reverse_k	Windowns/LinkedList/LinkedList_1.0/reverse.c	/^struct node* reverse_k(struct node* head, int k)$/;"	f
+reverse_k	stuff/LinkedList/LinkedList_1.0/reverse.c	/^struct node* reverse_k(struct node* head, int k)$/;"	f
+right	Windowns/TreeStructure/total.h	/^	struct node* right;$/;"	m	struct:node	typeref:struct:node::node
+search	MIX/loginsys/src/data.c	/^int search(char ms[], int n, int fg)$/;"	f
+select_interface	MIX/loginsys/src/select.c	/^void select_interface()$/;"	f
+send_404err	Web_program/Web_server/send2client.c	/^void send_404err(int cfd)$/;"	f
+send_content	Web_program/Web_server/send2client.c	/^void send_content(int cfd, char *filename)$/;"	f
+send_respond	Web_program/Web_server/send2client.c	/^void send_respond(int cfd, int st_num, char *st_ms, char *filety)$/;"	f
+serchBST	Windowns/TreeStructure/reserch.c	/^int serchBST(struct node* root, int val)$/;"	f
+serchNode	Windowns/TreeStructure/reserch.c	/^int serchNode(struct node* root, int val) $/;"	f
+sign	Windowns/StackStructure/total.h	/^	char sign;$/;"	m	struct:node
+sign	Windowns/operation/exp.c	/^	char sign;$/;"	m	struct:postfix	file:
+sign	Windowns/operation/total.h	/^	char sign;$/;"	m	struct:postfix
+signal_hand	Sys_program/IPC/signal/sigaction.c	/^void signal_hand(int signum)$/;"	f
+signal_hand	Sys_program/IPC/signal/signal.c	/^void signal_hand(int signum)$/;"	f
+sort_rec	Windowns/LinkedList/LinkedList_1.0/sort.c	/^struct node* sort_rec(struct node* p)$/;"	f
+sort_rec	stuff/LinkedList/LinkedList_1.0/sort.c	/^struct node* sort_rec(struct node* p)$/;"	f
+speed	CPP_pro/playerMove.cpp	/^        int speed;$/;"	m	class:Player	file:
+src	MIX/loginsys/Makefile	/^src = $(wildcard .\/src\/*.c)$/;"	m
+src	Makefile	/^src = $(wildcard *.c)$/;"	m
+src	Sys_program/FileIO/makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	Sys_program/IPC/FIFO/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	Sys_program/IPC/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	Sys_program/Mul_process/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	Web_program/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	Web_program/Web_server/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	Windowns/LinkedList/LinkedList_1.0/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	Windowns/LinkedList/LinkedList_2.0/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	Windowns/LinkedList/LinkedList_3.0/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	Windowns/OTHER/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	stuff/LinkedList/LinkedList_1.0/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	stuff/LinkedList/LinkedList_2.0/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	stuff/LinkedList/LinkedList_3.0/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+src	stuff/Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+stack	Windowns/OTHER/DetectOperator.c	/^static char stack[10000];$/;"	v	file:
+stack	Windowns/OTHER/O1ToFindMin_stack.c	/^static int stack[300];$/;"	v	file:
+step	Windowns/OTHER/Hanio.c	/^static int step = 0;$/;"	v	file:
+step	stuff/Hanio.c	/^static long long int step = 0;$/;"	v	file:
+step	stuff/gittest/Hanio.c	/^static long long int step = 0;$/;"	v	file:
+str	Sys_program/Mul_thread/thread_join.c	/^	char str[256];$/;"	m	struct:test	file:
+stu	MIX/loginsys/inc/sum.h	/^struct stu$/;"	s
+stu	Sys_program/IPC/mmap/demo/r_inmap.c	/^} stu;$/;"	t	typeref:struct:stud	file:
+stu	Sys_program/IPC/mmap/demo/w_inmap.c	/^} stu;$/;"	t	typeref:struct:stud	file:
+stu_n	MIX/loginsys/inc/sum.h	/^}stu_n[10];$/;"	v	typeref:struct:stu
+stu_num	MIX/loginsys/src/main.c	/^int stu_num = 0;	$/;"	v
+stud	Sys_program/IPC/mmap/demo/r_inmap.c	/^typedef struct stud{$/;"	s	file:
+stud	Sys_program/IPC/mmap/demo/w_inmap.c	/^typedef struct stud{$/;"	s	file:
+student_interface	MIX/loginsys/src/interface.c	/^void student_interface()$/;"	f
+su	MIX/TEST/demo1.c	/^struct su$/;"	s	file:
+sub	Lib_test/source/sub.c	/^int sub(int a, int b)$/;"	f
+swap	stuff/gittest/sort_search.c	/^void swap(int *a, int *b)$/;"	f
+swap	stuff/sort_search.c	/^void swap(int *a, int *b)$/;"	f
+swap_reference	CPP_pro/tp_set/swap2num.cpp	/^void swap_reference(int& a, int& b)$/;"	f
+sys_err	Sys_program/IPC/signal/mask_pending.c	/^void sys_err(char *ms)$/;"	f
+sys_error	Sys_program/IPC/mmap/anon_map.c	/^void sys_error(char *ms)$/;"	f
+sys_error	Sys_program/IPC/mmap/par_chil_ipc.c	/^void sys_error(char *ms)$/;"	f
+sys_error	Sys_program/IPC/pipe/mulwr_sigrd.c	/^void sys_error(char *ms)$/;"	f
+sys_error	Sys_program/IPC/pipe/pipe_sum.c	/^void sys_error(char *mes)$/;"	f
+sys_error	Sys_program/IPC/signal/demo.c	/^void sys_error(char *ms)$/;"	f
+sys_error	Sys_program/IPC/signal/recycle_child.c	/^void sys_error(char *ms)$/;"	f
+sys_error	Sys_program/IPC/signal/sigaction.c	/^void sys_error(char *ms)$/;"	f
+sys_error	Sys_program/IPC/signal/signal.c	/^void sys_error(char *ms)$/;"	f
+sys_error	Sys_program/Mul_process/daemon_create.c	/^void sys_error(char *ms)$/;"	f
+sys_error	Sys_program/Mul_thread/attr_detach.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Sys_program/Thread_syn/deadly_embrace.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Sys_program/Thread_syn/mutex.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Sys_program/Thread_syn/prodcer_consumer.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Sys_program/Thread_syn/rwlock.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Web_program/Libevent/Reg_event/read_side.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Web_program/Libevent/Reg_event/write_side.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Web_program/Package_TCP/pack.c	/^static void sys_error(char *ms)$/;"	f	file:
+sys_error	Web_program/TCP/client.c	/^static void sys_error(int num, char *ms)$/;"	f	file:
+sys_error	Web_program/TCP/epoll_ET_LT.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Web_program/TCP/epoll_server.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Web_program/TCP/pack.c	/^static void sys_error(char *ms)$/;"	f	file:
+sys_error	Web_program/TCP/select_server.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Web_program/TCP/server.c	/^void sys_error(char *ms)$/;"	f
+sys_error	Web_program/UDP/client.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Web_program/UDP/server.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	Web_program/Web_server/main.c	/^void sys_error(int num, char *ms)$/;"	f
+tail	Windowns/OTHER/TwoStactToQueue.c	/^static int tail[100]; $/;"	v	file:
+tar	Makefile	/^tar = $(patsubst %.c, %, $(src))$/;"	m
+tar	Sys_program/FileIO/makefile	/^tar = $(patsubst %.c, %, $(src))$/;"	m
+tar	Sys_program/IPC/FIFO/Makefile	/^tar = $(patsubst %.c, %, $(src))$/;"	m
+tar	Sys_program/IPC/Makefile	/^tar = $(patsubst %.c, %, $(src))$/;"	m
+tar	Sys_program/Mul_process/Makefile	/^tar = $(patsubst %.c, %, $(src))$/;"	m
+tar	Web_program/Makefile	/^tar = $(patsubst %.c, %, $(src))$/;"	m
+tar	Windowns/OTHER/Makefile	/^tar = $(patsubst %.c, %, $(src))$/;"	m
+tar	stuff/Makefile	/^tar = $(patsubst %.c, %, $(src))$/;"	m
+test	Sys_program/Mul_process/test.c	/^void test()$/;"	f
+test	Sys_program/Mul_thread/thread_join.c	/^struct test{$/;"	s	file:
+top	Windowns/OTHER/DetectOperator.c	/^char top()$/;"	f
+top	Windowns/OTHER/O1ToFindMin_stack.c	/^int top()$/;"	f
+top	Windowns/StackStructure/stact.c	/^int top()$/;"	f
+tt	Sys_program/Mul_process/test.c	/^void *tt(void *arg)$/;"	f
+tt	stuff/memset_bzero.c	/^struct tt{$/;"	s	file:
+val	Sys_program/Mul_thread/thread_join.c	/^	int val;$/;"	m	struct:test	file:
+val	Sys_program/Thread_syn/prodcer_consumer.c	/^	int val;$/;"	m	struct:ms	file:
+val	Windowns/LinkedList/LinkedList_2.0/total.h	/^	int val;$/;"	m	struct:node
+val	Windowns/LinkedList/LinkedList_3.0/total.h	/^	int val;$/;"	m	struct:node
+val	Windowns/Queue/total.h	/^	int val;$/;"	m	struct:node
+val	Windowns/StackStructure/total.h	/^	int val;$/;"	m	struct:node
+val	Windowns/TreeStructure/total.h	/^	int val;$/;"	m	struct:node
+val	Windowns/operation/exp.c	/^	int val;$/;"	m	struct:postfix	file:
+val	Windowns/operation/total.h	/^	int val;$/;"	m	struct:postfix
+val	stuff/LinkedList/LinkedList_2.0/total.h	/^	int val;$/;"	m	struct:node
+val	stuff/LinkedList/LinkedList_3.0/total.h	/^	int val;$/;"	m	struct:node
+value	Windowns/LinkedList/LinkedList_1.0/total.h	/^	int value;$/;"	m	struct:node
+value	stuff/LinkedList/LinkedList_1.0/total.h	/^	int value;$/;"	m	struct:node
+var	Sys_program/Mul_process/shareVar.c	/^int var = 100;$/;"	v
+visitor	MIX/TEST/demo1.c	/^}visitor[3] = {{"ross", "male", 111}, {"rachel", "female", 222}, {"joey", "male", 333}};$/;"	v	typeref:struct:su
+welcome_interface	MIX/loginsys/src/interface.c	/^void welcome_interface()$/;"	f
+write	MIX/loginsys/src/data.c	/^void write()$/;"	f
+write_cb	Web_program/Libevent/Reg_event/write_side.c	/^void write_cb(evutil_socket_t fd, short what, void *arg)$/;"	f
+write_thread	Sys_program/Thread_syn/rwlock.c	/^void *write_thread(void *arg)$/;"	f
+x	CPP_pro/playerMove.cpp	/^        int x, y;$/;"	m	class:Player	file:
+y	CPP_pro/playerMove.cpp	/^        int x, y;$/;"	m	class:Player	file:

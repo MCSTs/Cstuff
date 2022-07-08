@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Head_insert	create.c	/^Node_t *Head_insert()$/;"	f
+Node_t	total.h	/^} Node_t;$/;"	t	typeref:struct:node
+Node_t	withHeadNode/total.h	/^}Node_t;$/;"	t	typeref:struct:node
+add_TwoList	flip.c	/^Node_t *add_TwoList(Node_t *p1, Node_t *p2)$/;"	f
+back_n	delete.c	/^Node_t *back_n(Node_t *head, int n)$/;"	f
+comment_node	comment_node.c	/^bool comment_node(Node_t *p1, Node_t *p2)$/;"	f
+comment_node_R	comment_node.c	/^Node_t *comment_node_R(Node_t *p1, Node_t *p2)$/;"	f
+create	withHeadNode/create.c	/^headN_t *create()$/;"	f
+create_bothwayList	withHeadNode/create.c	/^headN_t *create_bothwayList()$/;"	f
+create_incream	withHeadNode/create.c	/^headN_t *create_incream()$/;"	f
+create_ll	create.c	/^Node_t *create_ll()$/;"	f
+data	total.h	/^    int data;$/;"	m	struct:node
+delN_inBothlist	withHeadNode/delete.c	/^void delN_inBothlist(headN_t *bothhead, int num)$/;"	f
+del_Min	withHeadNode/delete.c	/^void del_Min(headN_t *headNode)$/;"	f
+del_in_Minstack	withHeadNode/delete.c	/^void del_in_Minstack(headN_t *headNode)$/;"	f
+del_order_allRep	delete.c	/^Node_t *del_order_allRep(Node_t *head)$/;"	f
+del_order_otherRep	delete.c	/^Node_t *del_order_otherRep(Node_t *head)$/;"	f
+delete_back_n	delete.c	/^Node_t *delete_back_n(Node_t *head, int n)$/;"	f
+delete_n	withHeadNode/delete.c	/^void delete_n(headN_t *headNode, int num)$/;"	f
+end	withHeadNode/total.h	/^    Node_t *end;$/;"	m	struct:hn
+findNode_loop	loop.c	/^Node_t *findNode_loop(Node_t *head)$/;"	f
+flip_group_n	flip.c	/^Node_t *flip_group_n(Node_t *head, int n)$/;"	f
+flip_n2m	flip.c	/^Node_t *flip_n2m(Node_t *head, int n, int m)$/;"	f
+flip_whole	flip.c	/^Node_t *flip_whole(Node_t *head)$/;"	f
+free_ll	create.c	/^void free_ll(Node_t *start, Node_t *end)$/;"	f
+generate_MinStack	withHeadNode/delete.c	/^void generate_MinStack(headN_t *bothhead)$/;"	f
+headN_t	withHeadNode/total.h	/^}headN_t;$/;"	t	typeref:struct:hn
+hn	withHeadNode/total.h	/^typedef struct hn{$/;"	s
+insertNode	withHeadNode/create.c	/^*insertNode(headN_t *headNode, Node_t *node)$/;"	f	file:
+insert_bothway	withHeadNode/create.c	/^static void insert_bothway(headN_t *bothhead, int data)$/;"	f	file:
+isPalindromic_list	palindromicList.c	/^bool isPalindromic_list(Node_t *head)$/;"	f
+isloop	loop.c	/^bool isloop(Node_t *head, bool do_print)$/;"	f
+len	withHeadNode/total.h	/^    int len;$/;"	m	struct:hn
+linkLoop	loop.c	/^void linkLoop(Node_t *head, int num)$/;"	f
+main	main.c	/^int main(void)$/;"	f
+main	withHeadNode/main.c	/^int main(void)$/;"	f
+mer_k	merge.c	/^Node_t *mer_k(Node_t **list, int left, int right)$/;"	f
+merge_order	merge.c	/^Node_t *merge_order(Node_t *p1, Node_t *p2)$/;"	f
+merge_order_R	merge.c	/^Node_t *merge_order_R(Node_t *p1, Node_t *p2)$/;"	f
+next	total.h	/^    struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	withHeadNode/total.h	/^    struct node *next; $/;"	m	struct:node	typeref:struct:node::node
+node	total.h	/^typedef struct node {$/;"	s
+node	withHeadNode/total.h	/^typedef struct node{$/;"	s
+obj	Makefile	/^obj = $(patsubst %.c, obj\/%.o, $(src))$/;"	m
+obj	withHeadNode/Makefile	/^obj = $(patsubst %.c, obj\/%.o, $(src))$/;"	m
+odd_to_even	oddTOeven.c	/^Node_t *odd_to_even(Node_t *head)$/;"	f
+p2Linktop1node	comment_node.c	/^void p2Linktop1node(Node_t *p1, Node_t *p2, int index)$/;"	f
+poll	withHeadNode/stack_min.c	/^Node_t *poll(headN_t *headNode)$/;"	f
+pre	withHeadNode/total.h	/^    struct node *pre;$/;"	m	struct:node	typeref:struct:node::node
+print_back	withHeadNode/print.c	/^void print_back(headN_t *bothhead)$/;"	f
+print_ll	create.c	/^void print_ll(Node_t *head)$/;"	f
+print_minstack	withHeadNode/print.c	/^void print_minstack(headN_t *headNode)$/;"	f
+print_tt	withHeadNode/print.c	/^void print_tt(headN_t *headNode)$/;"	f
+push	withHeadNode/stack_min.c	/^Node_t *push(headN_t *headNode ,int data)$/;"	f
+sortList	sortList.c	/^Node_t *sortList(Node_t *head)$/;"	f
+src	Makefile	/^src = $(wildcard *.c)$/;"	m
+src	withHeadNode/Makefile	/^src = $(wildcard *.c)$/;"	m
+stack_min	withHeadNode/total.h	/^    Node_t *stack_min;$/;"	m	struct:hn
+stack_top	withHeadNode/total.h	/^    Node_t *stack_top;$/;"	m	struct:hn
+start	withHeadNode/total.h	/^    Node_t *start;$/;"	m	struct:hn
+val	withHeadNode/total.h	/^    int val;$/;"	m	struct:node

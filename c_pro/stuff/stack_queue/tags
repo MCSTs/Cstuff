@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Dequeue	c_queue_ar.c	/^void Dequeue(Queue *queP)$/;"	f
+Dequeue_li	c_queue_li.c	/^node_t *Dequeue_li(Queue_li *queP_li)$/;"	f
+Enqueue	c_queue_ar.c	/^void Enqueue(Queue *queP, int num)$/;"	f
+Enqueue_li	c_queue_li.c	/^void Enqueue_li(Queue_li *queP_li, int val)$/;"	f
+HeadNode	stack.h	/^}HeadNode;$/;"	t	typeref:struct:Hnoed
+Hnoed	stack.h	/^typedef struct Hnoed{$/;"	s
+MAXLEN	test/operatormatch.c	3;"	d	file:
+MAX_L	main.c	4;"	d	file:
+Queue	queue.h	/^}Queue;$/;"	t	typeref:struct:que
+Queue_li	queue.h	/^}Queue_li;$/;"	t	typeref:struct:que_li
+STACK_H__H	stack.h	2;"	d
+ar	queue.h	/^    int *ar;$/;"	m	struct:que
+ch	stack.h	/^    char ch;$/;"	m	struct:sst
+clear_que	c_queue_ar.c	/^void clear_que(Queue *queP)$/;"	f
+curLen	queue.h	/^    int curLen;$/;"	m	struct:que
+cur_len	queue.h	/^    int cur_len;$/;"	m	struct:que_li
+data	stack.h	/^    int data;$/;"	m	struct:sst
+destroy_que	c_queue_ar.c	/^void destroy_que(Queue *queP)$/;"	f
+front	queue.h	/^    int front;$/;"	m	struct:que
+front	queue.h	/^    node_t *front;$/;"	m	struct:que_li
+getnode	c_queue_li.c	/^static node_t *getnode(int val)$/;"	f	file:
+init_queue	c_queue_ar.c	/^Queue *init_queue(int maxl)$/;"	f
+init_queue_li	c_queue_li.c	/^Queue_li *init_queue_li()$/;"	f
+init_stack	c_stack_li.c	/^HeadNode *init_stack()$/;"	f
+is_leftOp	test/operatormatch.c	/^bool is_leftOp(char ch)$/;"	f
+isempty_que_li	c_queue_li.c	/^bool isempty_que_li(Queue_li *queP_li)$/;"	f
+isempty_stack	c_stack_li.c	/^bool isempty_stack(HeadNode *headNode)$/;"	f
+main	main.c	/^int main(void)$/;"	f
+main	test/operatormatch.c	/^int main(void)$/;"	f
+match_op	test/operatormatch.c	/^bool match_op(char ch1, char ch2)$/;"	f
+maxl	queue.h	/^    int maxl; $/;"	m	struct:que
+next	stack.h	/^    struct sst *next;$/;"	m	struct:sst	typeref:struct:sst::sst
+node_t	stack.h	/^}node_t;$/;"	t	typeref:struct:sst
+obj	Makefile	/^obj = $(patsubst %.c, obj\/%.o, $(src))$/;"	m
+poll	c_stack_li.c	/^node_t *poll(HeadNode *headNode)$/;"	f
+pre	stack.h	/^    struct sst *pre;$/;"	m	struct:sst	typeref:struct:sst::sst
+print_que	c_queue_ar.c	/^void print_que(Queue *queP)$/;"	f
+print_que_li	c_queue_li.c	/^void print_que_li(Queue_li *queP_li)$/;"	f
+print_stack	c_stack_li.c	/^void print_stack(HeadNode *headNode)$/;"	f
+push	c_stack_li.c	/^void push(HeadNode *headNode, int val)$/;"	f
+push_ch	c_stack_li.c	/^void push_ch(HeadNode *headNode, char ch)$/;"	f
+que	queue.h	/^typedef struct que{$/;"	s
+que_li	queue.h	/^typedef struct que_li{$/;"	s
+rear	queue.h	/^    int rear;$/;"	m	struct:que
+rear	queue.h	/^    node_t *rear;$/;"	m	struct:que_li
+src	Makefile	/^src = $(wildcard *.c)$/;"	m
+sst	stack.h	/^typedef struct sst{$/;"	s
+stacklen	stack.h	/^    int stacklen;$/;"	m	struct:Hnoed
+top	stack.h	/^    node_t *top;$/;"	m	struct:Hnoed

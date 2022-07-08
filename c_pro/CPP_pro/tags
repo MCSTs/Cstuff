@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Error	Log.cpp	/^    void Error(const char *message) {$/;"	f	class:Log
+Info	Log.cpp	/^    void Info(const char *message) {$/;"	f	class:Log
+LOG	playerMove.cpp	7;"	d	file:
+Line	constructor.cpp	/^Line::Line(void)$/;"	f	class:Line
+Line	constructor.cpp	/^class Line {$/;"	c	file:
+Log	Log.cpp	/^class Log {$/;"	c	file:
+LogLevelError	Log.cpp	/^    const int LogLevelError   = 0;$/;"	m	class:Log	file:
+LogLevelInfo	Log.cpp	/^    const int LogLevelInfo    = 2;$/;"	m	class:Log	file:
+LogLevelWarning	Log.cpp	/^    const int LogLevelWarning = 1;$/;"	m	class:Log	file:
+Player	playerMove.cpp	/^class Player {$/;"	c	file:
+SetLevel	Log.cpp	/^    void SetLevel(int level) {$/;"	f	class:Log
+Warn	Log.cpp	/^    void Warn(const char *message) {$/;"	f	class:Log
+a	constructor.cpp	/^        int a;$/;"	m	class:Line	file:
+b	constructor.cpp	/^        int b;$/;"	m	class:Line	file:
+c	constructor.cpp	/^        int c;$/;"	m	class:Line	file:
+m_LogLevel	Log.cpp	/^    int m_LogLevel;$/;"	m	class:Log	file:
+main	Log.cpp	/^int main(void)$/;"	f
+main	constructor.cpp	/^int main(void)$/;"	f
+main	cowsay.cpp	/^int main() {$/;"	f
+main	playerMove.cpp	/^int main(void)$/;"	f
+main	tp_set/double2int.cpp	/^int main(void)$/;"	f
+main	tp_set/maxNUM.cpp	/^int main(void)$/;"	f
+main	tp_set/operate2num.cpp	/^int main(void)$/;"	f
+main	tp_set/sizeType.cpp	/^int main(void)$/;"	f
+main	tp_set/sum.cpp	/^int main(void)$/;"	f
+main	tp_set/swap2num.cpp	/^int main(void)$/;"	f
+main	tp_set/ternaryExp.cpp	/^int main(void)$/;"	f
+move	playerMove.cpp	/^        void move(char act) {$/;"	f	class:Player
+pp	tp_set/sizeType.cpp	/^void pp()$/;"	f
+speed	playerMove.cpp	/^        int speed;$/;"	m	class:Player	file:
+swap_reference	tp_set/swap2num.cpp	/^void swap_reference(int& a, int& b)$/;"	f
+x	playerMove.cpp	/^        int x, y;$/;"	m	class:Player	file:
+y	playerMove.cpp	/^        int x, y;$/;"	m	class:Player	file:

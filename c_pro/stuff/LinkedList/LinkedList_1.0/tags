@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CreateLoop	create.c	/^struct node* CreateLoop(struct node* head, int LoopNode)$/;"	f
+DownPortion	reverse.c	/^struct node* DownPortion(struct node* pHead, int n, int m)$/;"	f
+__TOTAL_H__	total.h	2;"	d
+addInList	addInList.c	/^struct node* addInList(struct node* head1, struct node* head2) $/;"	f
+common_node	isloop.c	/^struct node* common_node(struct node* p1, struct node* p2)$/;"	f
+create	create.c	/^struct node* create()$/;"	f
+delete_down_k	reverse.c	/^struct node* delete_down_k(struct node* head, int k)$/;"	f
+delete_rep	delete.c	/^struct node* delete_rep(struct node* head)$/;"	f
+delete_rep_all	delete.c	/^struct node* delete_rep_all(struct node* head)$/;"	f
+down	reverse.c	/^struct node* down(struct node* pHead)$/;"	f
+gettail	create.c	/^struct node* gettail(struct node* head)$/;"	f
+isloop	isloop.c	/^int isloop(struct node* head)$/;"	f
+joint_2	joint.c	/^struct node* joint_2(struct node* p1, struct node* p2) $/;"	f
+joint_new	joint.c	/^struct node* joint_new(struct node* p1, struct node* p2)$/;"	f
+loop_node	isloop.c	/^struct node* loop_node(struct node* head)$/;"	f
+main	main.c	/^int main(void)$/;"	f
+merge2	joint.c	/^struct node* merge2(struct node* p1, struct node* p2)$/;"	f
+merge_rec	joint.c	/^struct node* merge_rec(struct node* p1, struct node* p2)$/;"	f
+myprint	create.c	/^struct node* myprint(struct node* pHead)$/;"	f
+next	total.h	/^	struct node* next;$/;"	m	struct:node	typeref:struct:node::node
+node	total.h	/^struct node{$/;"	s
+obj	Makefile	/^obj = $(patsubst .\/%.c, .\/object\/%.o, $(src))$/;"	m
+odd_even_reset	odd_even_reset.c	/^struct node* odd_even_reset(struct node* head)$/;"	f
+release	main.c	/^void release(struct node* pHead, struct node* end)$/;"	f
+rev	addInList.c	/^struct node* rev(struct node* p)$/;"	f
+reverse_k	reverse.c	/^struct node* reverse_k(struct node* head, int k)$/;"	f
+sort_rec	sort.c	/^struct node* sort_rec(struct node* p)$/;"	f
+src	Makefile	/^src = $(wildcard .\/*.c)$/;"	m
+value	total.h	/^	int value;$/;"	m	struct:node

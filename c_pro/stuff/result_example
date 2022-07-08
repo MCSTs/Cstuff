@@ -1,0 +1,119 @@
+#include <stdio.h>
+
+int t1;
+short t2;
+char ch;
+
+void pp()
+{
+	int a;
+	short b;
+	char c;
+	printf("In pp:\n");
+	printf("&int a:  %p\n", &a);
+	printf("&short b:%p\n", &b);
+	printf("&char c: %p\n", &c);
+	putchar('\n');
+	
+}
+
+int main(void)
+{
+	int a;
+	short b;
+	char c;
+	printf("In main:\n");
+	printf("&int a:  %p\n", &a);
+	printf("&short b:%p\n", &b);
+	printf("&char c: %p\n", &c);
+	putchar('\n');
+	
+	printf("In total:\n");
+	printf("&int t1:  %p\n", &t1);
+	printf("&short t2:%p\n", &t2);
+	printf("&char ch: %p\n", &ch);
+	putchar('\n');
+
+	pp();
+	return 0;
+}
+
+
+----------------------------------------------------------------------------------------------------
+In main:
+&int a:  0x7ffe176695b4
+&short b:0x7ffe176695b2
+&char c: 0x7ffe176695b1
+
+In total:
+&int t1:  0x5579f736e014
+&short t2:0x5579f736e01a
+&char ch: 0x5579f736e018
+
+In pp:
+&int a:  0x7ffe17669594
+&short b:0x7ffe17669592
+&char c: 0x7ffe17669591
+
+
+====================================================================================================
+# const -->> :
+
+#include <stdio.h>
+int main(void)
+{
+	char c = 'a';
+	printf("c: %c\n", c);
+	char d = 'b';
+	const char *p = &c;
+	c = 't';
+	printf("c: %c\n", c);
+
+	
+	//*p = 'a'; // error
+	//p = &d;  // right 
+
+
+	char const *q = &c; // -> == const char *p
+	//*q = 'a'; //error 
+	//q = &d;  // right 
+	
+
+	char* const t = &c;
+	*t = 'g';
+	printf("c: %c\n", c);
+	c = 'y';
+	printf("c: %c\n", c);
+
+	//t = &d; //error
+	printf("%ld\n", sizeof(t));
+	return 0;
+}
+
+
+----------------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+#include <stddef.h>
+
+struct tt{
+	int a;
+	char buf[BUFSIZ];
+	void *p;
+	struct tt *stp;
+	long def;
+};
+
+int main(void)
+{
+	struct tt demo;
+	printf("demo size: %ld\n", sizeof(demo));
+	printf("a size: %ld\n", sizeof(demo.a));
+	printf("a offset: %ld\n", offsetof(struct tt, a));
+	printf("buf offset: %ld\n", offsetof(struct tt, buf));
+	printf("*p offset: %ld\n", offsetof(struct tt, p));
+	printf("*stp offset: %ld\n", offsetof(struct tt, stp));
+	printf("def offset: %ld\n", offsetof(struct tt, def));
+	return 0;
+}

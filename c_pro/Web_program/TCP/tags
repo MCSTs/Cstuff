@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Accept	./pack.c	/^int Accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen)$/;"	f
+BUF	./epoll_ET_LT.c	8;"	d	file:
+Bind	./pack.c	/^int Bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen)$/;"	f
+D_PORT	./client.c	8;"	d	file:
+D_PORT	./epoll_server.c	11;"	d	file:
+D_PORT	./mul_proc_server.c	12;"	d	file:
+D_PORT	./select_server.c	10;"	d	file:
+D_PORT	./server.c	8;"	d	file:
+F_MAX	./epoll_server.c	12;"	d	file:
+Listen	./pack.c	/^int Listen(int sockfd, int backlog)$/;"	f
+MAX_ENENT	./epoll_server.c	13;"	d	file:
+SRC_IP	./client.c	9;"	d	file:
+Socket	./pack.c	/^int Socket(int domain, int type, int protocol)$/;"	f
+__PACK_H__	./pack.h	2;"	d
+main	./client.c	/^int main(void)$/;"	f
+main	./epoll_ET_LT.c	/^int main(void)$/;"	f
+main	./epoll_server.c	/^int main(int argc, char **argv)$/;"	f
+main	./mul_proc_server.c	/^int main(int argc, char **argv)$/;"	f
+main	./select_server.c	/^int main(void)$/;"	f
+main	./server.c	/^int main(int argc, char **argv)$/;"	f
+recycle_child	./mul_proc_server.c	/^void recycle_child(int signum)$/;"	f
+sys_error	./client.c	/^static void sys_error(int num, char *ms)$/;"	f	file:
+sys_error	./epoll_ET_LT.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	./epoll_server.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	./pack.c	/^static void sys_error(char *ms)$/;"	f	file:
+sys_error	./select_server.c	/^void sys_error(int num, char *ms)$/;"	f
+sys_error	./server.c	/^void sys_error(char *ms)$/;"	f
